@@ -11,12 +11,6 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 public class UserRestController {
 
-    /**
-     * TodoItem 상세 조회
-     *
-     * @param id
-     * @return
-     */
     @GetMapping()
     public String getUserId() {
         return "82106120";
